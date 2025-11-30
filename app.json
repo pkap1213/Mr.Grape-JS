@@ -1,0 +1,28 @@
+{
+  "name": "Mr.Grape",
+  "description": "A cool discord bot.",
+  "keywords": [
+    "discord",
+    "bot",
+    "grape"
+  ],
+  "repository": "https://github.com/kinglalu/Mr.Grape",
+  "success_url": "/",
+  "env": {
+    "DISCORD_TOKEN": {
+      "description": "The token for your discord bot"
+    },
+    "NASA": {
+      "description": "For NASA Picture of the Day"
+    },
+    "WOLFRAM": {
+      "description": "For Wolfram command"
+    },
+    "KSOFT": {
+      "description": "For Lyrics command"
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
